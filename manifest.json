@@ -1,0 +1,30 @@
+{
+  "id": "car-dealership-sales-optimizer",
+  "title": "Car Dealership Sales Optimizer App",
+  "industry": "Sales, Marketing & CRM",
+  "industryId": "sales-marketing-crm",
+  "specialization": "Car Dealership Sales Optimizer",
+  "sourcePlatformGroup": "sales-marketing-crm-platform",
+  "sources": [
+    "AICarDealershipSalesOptimizer",
+    "AIFundraisingCampaignOptimizer",
+    "AITradeShowConferenceROIOptimizer",
+    "ai-sales-outreach"
+  ],
+  "featureCount": 288,
+  "candidateFeatureCount": 398,
+  "eliminatedSimilarFeatures": 110,
+  "evidenceCount": 1038,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 23,
+    "seededRows": 373
+  },
+  "visibleFeatureCount": 43,
+  "featureVisibilityMode": "seeded-or-ai"
+}
