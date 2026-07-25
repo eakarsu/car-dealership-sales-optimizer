@@ -1,5 +1,276 @@
 [
   {
+    "name": "Ab Testing",
+    "canonicalKey": "ab testing",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/ABTesting"
+    ],
+    "sourceProjects": [
+      "AIFundraisingCampaignOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/pages/ABTesting.jsx",
+        "route": "/ABTesting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "Ab Tests",
+    "canonicalKey": "ab test",
+    "aliases": [
+      "Ab Test Detail"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ABTestDetail",
+      "/ABTests",
+      "/ab-test",
+      "/ab-tests"
+    ],
+    "sourceProjects": [
+      "aIMarketingAutomation",
+      "ai-sales-outreach",
+      "leads"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/churn-prediction-system"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/pages/ABTestDetail.tsx",
+        "route": "/ABTestDetail",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/App.tsx:114",
+        "route": "/ab-tests",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/components/Layout.tsx:67",
+        "route": "/ab-tests",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/pages/ABTests.tsx",
+        "route": "/ABTests",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/analytics.ts:313",
+        "route": "/ab-tests",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/App.tsx:103",
+        "route": "/ab-test",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/ab-tests/page.tsx",
+        "route": "/ab-tests",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      }
+    ]
+  },
+  {
+    "name": "Abm Targeting",
+    "canonicalKey": "abm targeting",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ABMTargeting",
+      "/abm-targeting",
+      "/ai/abm-targeting"
+    ],
+    "sourceProjects": [
+      "AITradeShowConferenceROIOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/ai.js:488",
+        "route": "/abm-targeting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/App.jsx:181",
+        "route": "/ai/abm-targeting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/App.jsx:96",
+        "route": "/ai/abm-targeting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/pages/ABMTargeting.jsx",
+        "route": "/ABMTargeting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "Abtesting",
+    "canonicalKey": "abtesting",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/abtesting"
+    ],
+    "sourceProjects": [
+      "AIFundraisingCampaignOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/App.jsx:314",
+        "route": "/abtesting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/App.jsx:71",
+        "route": "/abtesting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/pages/Dashboard.jsx:20",
+        "route": "/abtesting",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "Accuracy",
+    "canonicalKey": "accuracy",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/forecasts/accuracy"
+    ],
+    "sourceProjects": [
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/ai.ts:1318",
+        "route": "/forecasts/accuracy",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "Advance",
+    "canonicalKey": "advance",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/advance"
+    ],
+    "sourceProjects": [
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/warmup.ts:157",
+        "route": "/:id/advance",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "Agentic Sdr Responding To Leads Qualifying And Boo Page",
+    "canonicalKey": "agentic and boo lead qualifying responding sdr to",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AgenticSdrRespondingToLeadsQualifyingAndBooPage"
+    ],
+    "sourceProjects": [
+      "AICarDealershipSalesOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "frontend/src/pages/AgenticSdrRespondingToLeadsQualifyingAndBooPage.js",
+        "route": "/AgenticSdrRespondingToLeadsQualifyingAndBooPage",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
     "name": "AI Account Tier Scoring Icp",
     "canonicalKey": "account ai icp scoring tier",
     "aliases": [],
@@ -100,7 +371,6 @@
     "canonicalKey": "ai assistant",
     "aliases": [],
     "kinds": [
-      "navigation",
       "page"
     ],
     "routes": [
@@ -108,12 +378,10 @@
       "/ai-assistant"
     ],
     "sourceProjects": [
-      "ai-sales-outreach",
-      "multiLocationFranchise"
+      "ai-sales-outreach"
     ],
     "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer",
-      "sales-marketing-crm/franchise-performance-benchmarker"
+      "sales-marketing-crm/car-dealership-sales-optimizer"
     ],
     "evidence": [
       {
@@ -136,13 +404,6 @@
         "path": "frontend/src/pages/AIAssistant.tsx",
         "route": "/AIAssistant",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "multiLocationFranchise",
-        "path": "frontend/src/components/Sidebar.js:80",
-        "route": "",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       }
     ]
   },
@@ -763,28 +1024,12 @@
       "/ai-studio"
     ],
     "sourceProjects": [
-      "AICarDealershipSalesOptimizer",
-      "leads"
+      "AICarDealershipSalesOptimizer"
     ],
     "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer",
-      "sales-marketing-crm/churn-prediction-system"
+      "sales-marketing-crm/car-dealership-sales-optimizer"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/ai-studio/page.tsx",
-        "route": "/ai-studio",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:245",
-        "route": "/ai-studio",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "navigation",
         "sourceProject": "AICarDealershipSalesOptimizer",
@@ -863,226 +1108,6 @@
         "sourceProject": "ai-sales-outreach",
         "path": "frontend/src/pages/AIWarmupScheduler.tsx",
         "route": "/AIWarmupScheduler",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Ab Testing",
-    "canonicalKey": "ab testing",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/ABTesting"
-    ],
-    "sourceProjects": [
-      "AIFundraisingCampaignOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFundraisingCampaignOptimizer",
-        "path": "client/src/pages/ABTesting.jsx",
-        "route": "/ABTesting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Abm Targeting",
-    "canonicalKey": "abm targeting",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/ABMTargeting",
-      "/abm-targeting",
-      "/ai/abm-targeting"
-    ],
-    "sourceProjects": [
-      "AITradeShowConferenceROIOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/ai.js:488",
-        "route": "/abm-targeting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "frontend/src/App.jsx:181",
-        "route": "/ai/abm-targeting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "frontend/src/App.jsx:96",
-        "route": "/ai/abm-targeting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "frontend/src/pages/ABMTargeting.jsx",
-        "route": "/ABMTargeting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Abtesting",
-    "canonicalKey": "abtesting",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/abtesting"
-    ],
-    "sourceProjects": [
-      "AIFundraisingCampaignOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFundraisingCampaignOptimizer",
-        "path": "client/src/App.jsx:314",
-        "route": "/abtesting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFundraisingCampaignOptimizer",
-        "path": "client/src/App.jsx:71",
-        "route": "/abtesting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFundraisingCampaignOptimizer",
-        "path": "client/src/pages/Dashboard.jsx:20",
-        "route": "/abtesting",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Accuracy",
-    "canonicalKey": "accuracy",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/forecasts/accuracy"
-    ],
-    "sourceProjects": [
-      "ai-sales-outreach"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/ai.ts:1318",
-        "route": "/forecasts/accuracy",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Action",
-    "canonicalKey": "action",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/action"
-    ],
-    "sourceProjects": [
-      "ai-sales-outreach"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/replyClassifier.ts:157",
-        "route": "/:id/action",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Advance",
-    "canonicalKey": "advance",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/advance"
-    ],
-    "sourceProjects": [
-      "ai-sales-outreach"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/warmup.ts:157",
-        "route": "/:id/advance",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Agentic Sdr Responding To Leads Qualifying And Boo Page",
-    "canonicalKey": "agentic and boo leads qualifying responding sdr to",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AgenticSdrRespondingToLeadsQualifyingAndBooPage"
-    ],
-    "sourceProjects": [
-      "AICarDealershipSalesOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "frontend/src/pages/AgenticSdrRespondingToLeadsQualifyingAndBooPage.js",
-        "route": "/AgenticSdrRespondingToLeadsQualifyingAndBooPage",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
@@ -1174,27 +1199,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/export.ts:112",
-        "route": "/pdf/analytics",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/App.tsx:99",
-        "route": "/analytics",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/pages/Analytics.tsx",
-        "route": "/Analytics",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AICarDealershipSalesOptimizer",
         "path": "frontend/src/components/Navbar.js:16",
@@ -1245,6 +1249,41 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "frontend/src/pages/AnalyticsPage.js",
+        "route": "/AnalyticsPage",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/export.ts:112",
+        "route": "/pdf/analytics",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/App.tsx:99",
+        "route": "/analytics",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/Analytics.tsx",
+        "route": "/Analytics",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multiLocationFranchise",
+        "path": "backend/src/routes/dashboard.js:201",
+        "route": "/analytics",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AiCodeReviewDocumentation",
         "path": "frontend/src/App.jsx:104",
         "route": "/analytics",
@@ -1272,13 +1311,6 @@
         "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/dashboard.js:200",
-        "route": "/analytics",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
         "kind": "page",
         "sourceProject": "AiCustomerSupportAgent",
         "path": "frontend/src/App.jsx:128",
@@ -1298,13 +1330,6 @@
         "path": "frontend/src/pages/Analytics.jsx",
         "route": "/Analytics",
         "originApp": "sales-marketing-crm/customer-support-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "frontend/src/pages/AnalyticsPage.js",
-        "route": "/AnalyticsPage",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
   },
@@ -1335,32 +1360,6 @@
     ]
   },
   {
-    "name": "Approval Request",
-    "canonicalKey": "approval request",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/approval-request"
-    ],
-    "sourceProjects": [
-      "ai-sales-outreach"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/ai.ts:1503",
-        "route": "/approval-request",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
     "name": "Assess",
     "canonicalKey": "assess",
     "aliases": [],
@@ -1368,13 +1367,17 @@
       "api"
     ],
     "routes": [
-      "/ai/assess"
+      "/ai/assess",
+      "/cases/:id/assess"
     ],
     "sourceProjects": [
-      "AIFundraisingCampaignOptimizer"
+      "AIFundraisingCampaignOptimizer",
+      "AIReviewResponseManager",
+      "AITradeShowConferenceROIOptimizer"
     ],
     "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
       {
@@ -1383,6 +1386,20 @@
         "path": "server/routes/goals.js:108",
         "route": "/ai/assess",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/governance/routerFactory.js:213",
+        "route": "/cases/:id/assess",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIReviewResponseManager",
+        "path": "backend/src/governance/routerFactory.js:190",
+        "route": "/cases/:id/assess",
+        "originApp": "sales-marketing-crm/review-response-manager"
       }
     ]
   },
@@ -1472,8 +1489,55 @@
     ]
   },
   {
+    "name": "Attempts",
+    "canonicalKey": "attempt",
+    "aliases": [
+      "Attempt"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/deliveries/:id/attempt",
+      "/outbox/:id/attempts"
+    ],
+    "sourceProjects": [
+      "AITradeShowConferenceROIOptimizer",
+      "AiCodeReviewDocumentation",
+      "AiCustomerSupportAgent"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/customer-support-agent",
+      "sales-marketing-crm/review-response-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/governance/routerFactory.js:392",
+        "route": "/outbox/:id/attempts",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/authoritative.js:12",
+        "route": "/deliveries/:id/attempt",
+        "originApp": "sales-marketing-crm/review-response-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiCustomerSupportAgent",
+        "path": "backend/src/routes/authoritative.js:140",
+        "route": "/deliveries/:id/attempt",
+        "originApp": "sales-marketing-crm/customer-support-agent"
+      }
+    ]
+  },
+  {
     "name": "Auto Generated Competitor Battlecards Web",
-    "canonicalKey": "auto battlecards competitor generated web",
+    "canonicalKey": "auto battlecard competitor generated web",
     "aliases": [],
     "kinds": [
       "page"
@@ -1784,13 +1848,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/ai.ts:1299",
-        "route": "/budgets",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIFundraisingCampaignOptimizer",
         "path": "client/src/App.jsx:311",
@@ -1841,6 +1898,13 @@
       },
       {
         "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/ai.ts:1299",
+        "route": "/budgets",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIGrantWriter",
         "path": "backend/server.js:1088",
         "route": "/api/budgets",
@@ -1877,7 +1941,7 @@
       {
         "kind": "page",
         "sourceProject": "AIGrantWriter",
-        "path": "frontend/src/pages/Dashboard.js:179",
+        "path": "frontend/src/pages/Dashboard.js:191",
         "route": "/budgets",
         "originApp": "sales-marketing-crm/review-response-manager"
       }
@@ -1952,63 +2016,6 @@
     ]
   },
   {
-    "name": "CRM Sync",
-    "canonicalKey": "crm sync",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/CRMSync",
-      "/crm-sync",
-      "/workflow/crm-sync"
-    ],
-    "sourceProjects": [
-      "AITradeShowConferenceROIOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/ai.js:631",
-        "route": "/crm-sync",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "frontend/src/App.jsx:186",
-        "route": "/workflow/crm-sync",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "frontend/src/App.jsx:52",
-        "route": "/workflow/crm-sync",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "frontend/src/pages/CRMSync.jsx",
-        "route": "/CRMSync",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "frontend/src/pages/Dashboard.jsx:30",
-        "route": "/workflow/crm-sync",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
     "name": "Cadence Playbook Pdf",
     "canonicalKey": "cadence pdf playbook",
     "aliases": [],
@@ -2075,6 +2082,32 @@
     ]
   },
   {
+    "name": "Calculate",
+    "canonicalKey": "calculate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/momentum/calculate"
+    ],
+    "sourceProjects": [
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/momentum.ts:218",
+        "route": "/momentum/calculate",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
     "name": "Calendar",
     "canonicalKey": "calendar",
     "aliases": [],
@@ -2094,20 +2127,6 @@
       "sales-marketing-crm/churn-prediction-system"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/calendar/page.tsx",
-        "route": "/calendar",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:120",
-        "route": "/calendar",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "page",
         "sourceProject": "AIFundraisingCampaignOptimizer",
@@ -2135,6 +2154,13 @@
         "path": "client/src/pages/Dashboard.jsx:23",
         "route": "/calendar",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/calendar/page.tsx",
+        "route": "/calendar",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       }
     ]
   },
@@ -2167,8 +2193,7 @@
       "AIFundraisingCampaignOptimizer",
       "AISocialProofGenerator",
       "aIMarketingAutomation",
-      "ai-sales-outreach",
-      "leads"
+      "ai-sales-outreach"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer",
@@ -2176,55 +2201,6 @@
       "sales-marketing-crm/franchise-performance-benchmarker"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/pages/CampaignCreate.tsx",
-        "route": "/CampaignCreate",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/pages/CampaignDetail.tsx",
-        "route": "/CampaignDetail",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/export.ts:25",
-        "route": "/pdf/campaigns",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/App.tsx:75",
-        "route": "/campaigns",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/pages/Campaigns.tsx",
-        "route": "/Campaigns",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/campaigns/page.tsx",
-        "route": "/campaigns",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:106",
-        "route": "/campaigns",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "page",
         "sourceProject": "ai-sales-outreach",
@@ -2318,6 +2294,48 @@
       },
       {
         "kind": "page",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "frontend/src/pages/CampaignsPage.js",
+        "route": "/CampaignsPage",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/CampaignCreate.tsx",
+        "route": "/CampaignCreate",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/CampaignDetail.tsx",
+        "route": "/CampaignDetail",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/export.ts:25",
+        "route": "/pdf/campaigns",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/App.tsx:75",
+        "route": "/campaigns",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/Campaigns.tsx",
+        "route": "/Campaigns",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
         "sourceProject": "AIFranchisePerformanceBenchmarker",
         "path": "client/src/pages/CampaignDetailPage.jsx",
         "route": "/CampaignDetailPage",
@@ -2329,39 +2347,6 @@
         "path": "backend/routes/customerImport.js:146",
         "route": "/campaigns",
         "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "frontend/src/pages/CampaignsPage.js",
-        "route": "/CampaignsPage",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Cancel",
-    "canonicalKey": "cancel",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/cancel"
-    ],
-    "sourceProjects": [
-      "ai-sales-outreach"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/meetings.ts:242",
-        "route": "/:id/cancel",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
   },
@@ -2479,7 +2464,7 @@
   },
   {
     "name": "Cf Attendee Sentiment Tracking Via Post Event Surveys To Predict",
-    "canonicalKey": "attendee cf event post predict sentiment surveys to tracking via",
+    "canonicalKey": "attendee cf event post predict sentiment survey to tracking via",
     "aliases": [],
     "kinds": [
       "page"
@@ -3201,6 +3186,153 @@
     ]
   },
   {
+    "name": "Contacts",
+    "canonicalKey": "contact",
+    "aliases": [
+      "Contact Create",
+      "Contact Detail"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/:id/contacts",
+      "/ContactCreate",
+      "/ContactDetail",
+      "/Contacts",
+      "/contacts",
+      "/crm/contacts",
+      "/pdf/contacts",
+      "crm/contacts"
+    ],
+    "sourceProjects": [
+      "AiCustomerSupportAgent",
+      "aIMarketingAutomation",
+      "ai-sales-outreach",
+      "leads"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/churn-prediction-system",
+      "sales-marketing-crm/customer-support-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/pages/ContactDetail.tsx",
+        "route": "/ContactDetail",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/App.tsx:109",
+        "route": "/contacts",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/components/Layout.tsx:48",
+        "route": "/contacts",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/pages/Contacts.tsx",
+        "route": "/Contacts",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/pages/TeamMemberDetail.tsx:109",
+        "route": "/contacts",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/ContactCreate.tsx",
+        "route": "/ContactCreate",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/ContactDetail.tsx",
+        "route": "/ContactDetail",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/export.ts:67",
+        "route": "/pdf/contacts",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/segments.ts:208",
+        "route": "/:id/contacts",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/tags.ts:125",
+        "route": "/:id/contacts",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/App.tsx:79",
+        "route": "/contacts",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/Contacts.tsx",
+        "route": "/Contacts",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/contacts/page.tsx",
+        "route": "/contacts",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiCustomerSupportAgent",
+        "path": "frontend/src/App.jsx:142",
+        "route": "crm/contacts",
+        "originApp": "sales-marketing-crm/customer-support-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiCustomerSupportAgent",
+        "path": "frontend/src/components/Layout.jsx:58",
+        "route": "/crm/contacts",
+        "originApp": "sales-marketing-crm/customer-support-agent"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AiCustomerSupportAgent",
+        "path": "frontend/src/pages/crm/CrmDashboard.jsx:8",
+        "route": "/crm/contacts",
+        "originApp": "sales-marketing-crm/customer-support-agent"
+      }
+    ]
+  },
+  {
     "name": "Copywriter",
     "canonicalKey": "copywriter",
     "aliases": [],
@@ -3222,6 +3354,63 @@
         "sourceProject": "AIFundraisingCampaignOptimizer",
         "path": "server/routes/ai.js:54",
         "route": "/copywriter",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "CRM Sync",
+    "canonicalKey": "crm sync",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/CRMSync",
+      "/crm-sync",
+      "/workflow/crm-sync"
+    ],
+    "sourceProjects": [
+      "AITradeShowConferenceROIOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/ai.js:631",
+        "route": "/crm-sync",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/App.jsx:186",
+        "route": "/workflow/crm-sync",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/App.jsx:52",
+        "route": "/workflow/crm-sync",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/pages/CRMSync.jsx",
+        "route": "/CRMSync",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/pages/Dashboard.jsx:30",
+        "route": "/workflow/crm-sync",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
@@ -3312,34 +3501,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/server.js:505",
-        "route": "/api/customers",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/server.js:540",
-        "route": "/api/customers",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "frontend/src/App.js:2806",
-        "route": "/customers",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "frontend/src/App.js:496",
-        "route": "/customers",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AICarDealershipSalesOptimizer",
         "path": "frontend/src/components/Navbar.js:10",
@@ -3366,6 +3527,41 @@
         "path": "frontend/src/components/Navbar.js:10",
         "route": "/customers",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "frontend/src/pages/CustomersPage.js",
+        "route": "/CustomersPage",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/server.js:491",
+        "route": "/api/customers",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/server.js:526",
+        "route": "/api/customers",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "frontend/src/App.js:2806",
+        "route": "/customers",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "frontend/src/App.js:496",
+        "route": "/customers",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       },
       {
         "kind": "page",
@@ -3415,13 +3611,6 @@
         "path": "frontend/src/pages/Customers.jsx",
         "route": "/Customers",
         "originApp": "sales-marketing-crm/customer-support-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "frontend/src/pages/CustomersPage.js",
-        "route": "/CustomersPage",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
   },
@@ -3606,32 +3795,6 @@
         "sourceProject": "ai-sales-outreach",
         "path": "frontend/src/App.tsx:156",
         "route": "/gap/deeper-enrichment-salesforce-einstein-linkedin",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Documents Page",
-    "canonicalKey": "documents",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/DocumentsPage"
-    ],
-    "sourceProjects": [
-      "AICarDealershipSalesOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "frontend/src/pages/DocumentsPage.js",
-        "route": "/DocumentsPage",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
@@ -3822,50 +3985,24 @@
   {
     "name": "Emails",
     "canonicalKey": "email",
-    "aliases": [
-      "Email Center"
-    ],
+    "aliases": [],
     "kinds": [
       "api",
       "page"
     ],
     "routes": [
       "/Emails",
-      "/email-center",
       "/emails",
       "/notifications/email"
     ],
     "sourceProjects": [
       "AICarDealershipSalesOptimizer",
-      "AIFundraisingCampaignOptimizer",
-      "leads"
+      "AIFundraisingCampaignOptimizer"
     ],
     "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer",
-      "sales-marketing-crm/churn-prediction-system"
+      "sales-marketing-crm/car-dealership-sales-optimizer"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/email-center/page.tsx",
-        "route": "/email-center",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:187",
-        "route": "/email-center",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:189",
-        "route": "/email-center",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
@@ -3952,218 +4089,6 @@
         "path": "backend/src/routes/ai.ts:1548",
         "route": "/enrich-contact",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
-    "name": "Env",
-    "canonicalKey": "env",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "../../.env",
-      "../.env"
-    ],
-    "sourceProjects": [
-      "AICarDealershipSalesOptimizer",
-      "AIChurnPredictionSystem",
-      "AICompetitiveAnalysisTool",
-      "AIDatabaseAdminAgent",
-      "AIGrantWriter",
-      "AIReviewResponseManager",
-      "AITradeShowConferenceROIOptimizer",
-      "referral"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer",
-      "sales-marketing-crm/churn-prediction-system",
-      "sales-marketing-crm/franchise-performance-benchmarker",
-      "sales-marketing-crm/review-response-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/db.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/seed.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/server.js:11",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "referral",
-        "path": "server/db.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "referral",
-        "path": "server/index.js:3",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "referral",
-        "path": "server/middleware/auth.js:2",
-        "route": "../../.env",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "referral",
-        "path": "server/seed.js:3",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/config/database.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/middleware/auth.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/seed/seed.js:3",
-        "route": "../../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/server.js:4",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/services/openrouter.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/db.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/middleware/auth.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/ai.js:9",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/server.js:4",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICompetitiveAnalysisTool",
-        "path": "backend/server.js:1",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGrantWriter",
-        "path": "backend/seed.js:1",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIGrantWriter",
-        "path": "backend/server.js:1",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIReviewResponseManager",
-        "path": "backend/src/config/database.js:2",
-        "route": "../../.env",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIReviewResponseManager",
-        "path": "backend/src/controllers/authController.js:6",
-        "route": "../../.env",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIReviewResponseManager",
-        "path": "backend/src/middleware/auth.js:4",
-        "route": "../../.env",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIReviewResponseManager",
-        "path": "backend/src/services/aiService.js:1",
-        "route": "../../.env",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/middleware/auth.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/models/db.js:2",
-        "route": "../.env",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/seeds/seed.js:2",
-        "route": "../../.env",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       }
     ]
   },
@@ -4271,6 +4196,7 @@
     "sourceProjects": [
       "AICarDealershipSalesOptimizer",
       "AIFundraisingCampaignOptimizer",
+      "AIGrantWriter",
       "AITradeShowConferenceROIOptimizer",
       "AiCodeReviewDocumentation"
     ],
@@ -4341,6 +4267,13 @@
         "path": "frontend/src/pages/Dashboard.jsx:25",
         "route": "/events",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGrantWriter",
+        "path": "backend/governance/router.js:77",
+        "route": "/:id/events",
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
@@ -4773,13 +4706,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/customViews.ts:21",
-        "route": "/funnel",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
         "path": "backend/routes/pipelineStats.js:21",
         "route": "/funnel",
@@ -4791,6 +4717,13 @@
         "path": "backend/src/routes/customViews.ts:60",
         "route": "/funnel",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/customViews.ts:21",
+        "route": "/funnel",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       }
     ]
   },
@@ -4900,7 +4833,7 @@
   },
   {
     "name": "Gap Auto Generated Competitor Battlecards Web",
-    "canonicalKey": "auto battlecards competitor gap generated web",
+    "canonicalKey": "auto battlecard competitor gap generated web",
     "aliases": [],
     "kinds": [
       "page"
@@ -5030,7 +4963,7 @@
   },
   {
     "name": "Gap Limited Notifications No Dedicated Modul",
-    "canonicalKey": "dedicated gap limited modul no notifications",
+    "canonicalKey": "dedicated gap limited modul no notification",
     "aliases": [],
     "kinds": [
       "page"
@@ -5466,7 +5399,7 @@
   },
   {
     "name": "Gap No Notifications Subsystem",
-    "canonicalKey": "gap no notifications subsystem",
+    "canonicalKey": "gap no notification subsystem",
     "aliases": [],
     "kinds": [
       "page"
@@ -5782,7 +5715,7 @@
   },
   {
     "name": "Gap Sales Methodology Playbooks Meddic Sandler",
-    "canonicalKey": "gap meddic methodology playbooks sales sandler",
+    "canonicalKey": "gap meddic methodology playbook sale sandler",
     "aliases": [],
     "kinds": [
       "page"
@@ -5834,7 +5767,7 @@
   },
   {
     "name": "Gap Workflow Approval Gates Compliance Review",
-    "canonicalKey": "approval compliance gap gates review workflow",
+    "canonicalKey": "approval compliance gap gate review workflow",
     "aliases": [],
     "kinds": [
       "page"
@@ -5889,27 +5822,6 @@
       "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/ai.ts:1951",
-        "route": "/hashtags/generate",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/ai.ts:2105",
-        "route": "/landing-pages/generate",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/ai.ts:2263",
-        "route": "/email-campaigns/generate",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "api",
         "sourceProject": "AIFundraisingCampaignOptimizer",
@@ -5989,6 +5901,34 @@
       },
       {
         "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/ai.ts:1951",
+        "route": "/hashtags/generate",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/ai.ts:2105",
+        "route": "/landing-pages/generate",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/ai.ts:2263",
+        "route": "/email-campaigns/generate",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/personaVariants.js:32",
+        "route": "/generate",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AiCodeReviewDocumentation",
         "path": "backend/src/routes/apiDocs.js:70",
         "route": "/:id/generate",
@@ -6028,13 +5968,32 @@
         "path": "backend/src/routes/testGeneration.js:134",
         "route": "/:id/generate",
         "originApp": "sales-marketing-crm/review-response-manager"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Generate Email",
+    "canonicalKey": "email generate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/generate-email"
+    ],
+    "sourceProjects": [
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/personaVariants.js:32",
-        "route": "/generate",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/ai.ts:76",
+        "route": "/generate-email",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
   },
@@ -6094,7 +6053,8 @@
     "name": "Goals",
     "canonicalKey": "goal",
     "aliases": [
-      "Goal"
+      "Goal",
+      "Goals Page"
     ],
     "kinds": [
       "model",
@@ -6102,6 +6062,7 @@
     ],
     "routes": [
       "/Goals",
+      "/GoalsPage",
       "/goals"
     ],
     "sourceProjects": [
@@ -6146,6 +6107,13 @@
         "sourceProject": "AIFranchisePerformanceBenchmarker",
         "path": "server/models/Goal.js",
         "route": "",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "client/src/pages/GoalsPage.jsx",
+        "route": "/GoalsPage",
         "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       }
     ]
@@ -6270,7 +6238,6 @@
       "AiCustomerSupportAgent",
       "aIMarketingAutomation",
       "ai-sales-outreach",
-      "multiLocationFranchise",
       "referral"
     ],
     "consolidatedFromApps": [
@@ -6281,118 +6248,6 @@
       "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/customViews.js:418",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_codebase_not_modularized_into_route_files_maintain.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_ai_win_back_message_variant_generator_linked_to.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_automated_clustering_segment_discovery.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_campaign_playbook_orchestration_ui.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_data_ingest_pipeline_from_crm_billing_systems.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_notification_delivery_channel_alerts_table_only.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_production_ml_model_wiring_predictions_stored_a.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_streaming_feature_usage_signal_analyzer.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_webhook_outbound_api.js:132",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/server.js:1406",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/server.js:1434",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "frontend/src/App.js:2819",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "frontend/src/App.js:509",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/index.ts:92",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "referral",
-        "path": "server/index.js:31",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
@@ -6494,28 +6349,28 @@
       {
         "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/server.js:51",
+        "path": "backend/server.js:52",
         "route": "/api/health",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       },
       {
         "kind": "api",
         "sourceProject": "AIFundraisingCampaignOptimizer",
-        "path": "server/index.js:65",
+        "path": "server/index.js:63",
         "route": "/api/health",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       },
       {
         "kind": "api",
         "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/server.js:32",
+        "path": "backend/server.js:33",
         "route": "/api/health",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       },
       {
         "kind": "api",
         "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/index.ts:111",
+        "path": "backend/src/index.ts:115",
         "route": "/api/health",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       },
@@ -6654,6 +6509,230 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/customViews.js:418",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_codebase_not_modularized_into_route_files_maintain.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_ai_win_back_message_variant_generator_linked_to.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_automated_clustering_segment_discovery.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_campaign_playbook_orchestration_ui.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_data_ingest_pipeline_from_crm_billing_systems.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_notification_delivery_channel_alerts_table_only.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_production_ml_model_wiring_predictions_stored_a.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_streaming_feature_usage_signal_analyzer.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_webhook_outbound_api.js:132",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/server.js:1392",
+        "route": "/api/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/server.js:1420",
+        "route": "/api/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "frontend/src/App.js:2819",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "frontend/src/App.js:509",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/index.ts:85",
+        "route": "/api/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "referral",
+        "path": "server/index.js:24",
+        "route": "/api/health",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/anomalyDetect.js:94",
+        "route": "/anomaly-detect/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/costOptimize.js:94",
+        "route": "/cost-optimize/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/gap_limited_cloud_db_integrations_no_aws_rds_azure_sql_gcp_cloud.js:112",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/gap_missing_optimize_query_analyze_slow_queries_recommend_indexe.js:112",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/gap_no_connection_pooling_or_driver_management_module.js:112",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/gap_no_encryption_or_security_audit_module.js:112",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/gap_no_notification_system.js:112",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/gap_no_real_time_monitoring_alerting_beyond_stubs.js:112",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/gap_no_replication_failover_management.js:112",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/performanceForecast.js:94",
+        "route": "/performance-forecast/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/queryOptimize.js:95",
+        "route": "/query-optimize/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/schemaEvolve.js:94",
+        "route": "/schema-evolve/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/server.js:73",
+        "route": "/api/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "server/index.js:780",
+        "route": "/api/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "server/routes/extensions.js:418",
+        "route": "/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/server.js:1",
+        "route": "/api/health",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AICompetitiveAnalysisTool",
         "path": "backend/routes/customViews.js:204",
         "route": "/health",
@@ -6767,21 +6846,21 @@
       {
         "kind": "api",
         "sourceProject": "AIGrantWriter",
-        "path": "backend/routes/customViews.js:75",
+        "path": "backend/routes/customViews.js:76",
         "route": "/health",
         "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIReviewResponseManager",
-        "path": "backend/src/index.js:104",
+        "path": "backend/src/index.js:35",
         "route": "/api/health",
         "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/index.js:86",
+        "path": "backend/src/index.js:29",
         "route": "/api/health",
         "originApp": "sales-marketing-crm/review-response-manager"
       },
@@ -6885,127 +6964,8 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/anomalyDetect.js:94",
-        "route": "/anomaly-detect/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/costOptimize.js:94",
-        "route": "/cost-optimize/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/gap_limited_cloud_db_integrations_no_aws_rds_azure_sql_gcp_cloud.js:112",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/gap_missing_optimize_query_analyze_slow_queries_recommend_indexe.js:112",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/gap_no_connection_pooling_or_driver_management_module.js:112",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/gap_no_encryption_or_security_audit_module.js:112",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/gap_no_notification_system.js:112",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/gap_no_real_time_monitoring_alerting_beyond_stubs.js:112",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/gap_no_replication_failover_management.js:112",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/performanceForecast.js:94",
-        "route": "/performance-forecast/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/queryOptimize.js:94",
-        "route": "/query-optimize/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/routes/schemaEvolve.js:94",
-        "route": "/schema-evolve/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIDatabaseAdminAgent",
-        "path": "backend/server.js:68",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFranchisePerformanceBenchmarker",
-        "path": "server/index.js:787",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFranchisePerformanceBenchmarker",
-        "path": "server/routes/extensions.js:418",
-        "route": "/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/server.js:57",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/index.js:82",
-        "route": "/api/health",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AiCustomerSupportAgent",
-        "path": "backend/src/index.js:123",
+        "path": "backend/src/index.js:36",
         "route": "/api/health",
         "originApp": "sales-marketing-crm/customer-support-agent"
       },
@@ -7165,6 +7125,7 @@
     "routes": [
       "/:id/history",
       "/ai/history",
+      "/cases/:id/history",
       "/history",
       "/macros/history"
     ],
@@ -7180,8 +7141,7 @@
       "AiCodeReviewDocumentation",
       "AiCustomerSupportAgent",
       "aIMarketingAutomation",
-      "ai-sales-outreach",
-      "multiLocationFranchise"
+      "ai-sales-outreach"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer",
@@ -7191,6 +7151,230 @@
       "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_ainew_js_scaffold_but_no_mounted_chat_style_ai_end.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_ai_deal_desk_negotiation_co_pilot.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_ai_lead_scoring_on_inbound_contacts.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_ai_trade_in_valuation.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_ai_vehicle_photo_enhancement_and_listing_copy.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_direct_dms_api_clients_cdk_reynolds_reynolds_be.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_e_signature_f_i_document_execution_flow.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_notification_system_sms_email_delivery_channel.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_vehicle_history_carfax_autocheck_integration.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/gap_no_website_widget_for_self_serve_inventory_browsin.js:134",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/governance/routerFactory.js:154",
+        "route": "/cases/:id/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/abmTargeting.js:79",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/attendeeSentiment.js:79",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/badgeScanIntegration.js:79",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/competitorWinloss.js:79",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapLimitedCrmIntegrationSingleIntegrationModuleNotSalesforce.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoAiBoothTrafficAnomalyDetection.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoAiLeadQualityClustering.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoAiPostEventSentimentAnalysisOfAttendees.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoAttendeeBadgeIntegrationForRealTimeTracking.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoAuditLogging.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoEmailCampaignPlatformIntegration.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoNotificationsSubsystem.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoPostEventSurveyAutomation.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/gapNoWebhooks.js:71",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/liveBoothHeatmap.js:79",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/routes/portfolioEventOptimizer.js:79",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/battlecards.ts:32",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/enrichmentBridge.ts:32",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/meetingTranscript.ts:32",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/methodologyPlaybook.ts:32",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/voiceCoaching.ts:32",
+        "route": "/history",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIChurnPredictionSystem",
@@ -7368,307 +7552,6 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_ainew_js_scaffold_but_no_mounted_chat_style_ai_end.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_ai_deal_desk_negotiation_co_pilot.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_ai_lead_scoring_on_inbound_contacts.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_ai_trade_in_valuation.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_ai_vehicle_photo_enhancement_and_listing_copy.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_direct_dms_api_clients_cdk_reynolds_reynolds_be.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_e_signature_f_i_document_execution_flow.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_notification_system_sms_email_delivery_channel.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_vehicle_history_carfax_autocheck_integration.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "backend/routes/gap_no_website_widget_for_self_serve_inventory_browsin.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/abmTargeting.js:79",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/attendeeSentiment.js:79",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/badgeScanIntegration.js:79",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/competitorWinloss.js:79",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapLimitedCrmIntegrationSingleIntegrationModuleNotSalesforce.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoAiBoothTrafficAnomalyDetection.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoAiLeadQualityClustering.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoAiPostEventSentimentAnalysisOfAttendees.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoAttendeeBadgeIntegrationForRealTimeTracking.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoAuditLogging.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoEmailCampaignPlatformIntegration.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoNotificationsSubsystem.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoPostEventSurveyAutomation.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/gapNoWebhooks.js:71",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/liveBoothHeatmap.js:79",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AITradeShowConferenceROIOptimizer",
-        "path": "backend/routes/portfolioEventOptimizer.js:79",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/battlecards.ts:32",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/enrichmentBridge.ts:32",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/meetingTranscript.ts:32",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/methodologyPlaybook.ts:32",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ai-sales-outreach",
-        "path": "backend/src/routes/voiceCoaching.ts:32",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AICompetitiveAnalysisTool",
-        "path": "backend/routes/index.js:60",
-        "route": "/ai/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIReviewResponseManager",
-        "path": "backend/src/routes/ai-generate-response.js:77",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_critical_0_mounted_chat_style_ai_endpoints_despite.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_ai_documentation_generator_from_source.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_ai_pr_summary_or_change_impact_analyzer_wired_t.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_ai_test_generation_actually_wired.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_ai_vulnerability_secret_scan_integrated_with_co.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_ci_cd_plugin_jenkins_circleci.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_gitlab_bitbucket_integration_parity_only_github.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_ide_plugin_vs_code_jetbrains.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_no_sbom_license_compliance_reporting_beyond_depend.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/gap_notification_routes_exist_but_no_slack_email_deliv.js:134",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIDatabaseAdminAgent",
         "path": "backend/routes/backupNew.js:116",
         "route": "/history",
@@ -7746,94 +7629,94 @@
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/ai.js:937",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "sourceProject": "AICompetitiveAnalysisTool",
+        "path": "backend/routes/index.js:61",
+        "route": "/ai/history",
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_franchisee_certification_training_lms_backend.js:100",
-        "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "sourceProject": "AIReviewResponseManager",
+        "path": "backend/src/governance/routerFactory.js:136",
+        "route": "/cases/:id/history",
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_franchisee_sentiment_glassdoor_style_analysis.js:100",
+        "sourceProject": "AIReviewResponseManager",
+        "path": "backend/src/routes/ai-generate-response.js:76",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_marketing_spend_attribution_ai.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_critical_0_mounted_chat_style_ai_endpoints_despite.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_mobile_app_for_franchisees.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_ai_documentation_generator_from_source.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_multi_currency_multi_region_accounting.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_ai_pr_summary_or_change_impact_analyzer_wired_t.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_payments_royalty_collection_automation.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_ai_test_generation_actually_wired.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_real_time_pos_kpi_ingestion.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_ai_vulnerability_secret_scan_integrated_with_co.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_supply_chain_optimization_across_locations.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_ci_cd_plugin_jenkins_circleci.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_support_ticketing_system.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_gitlab_bitbucket_integration_parity_only_github.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_vendor_supplier_marketplace.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_ide_plugin_vs_code_jetbrains.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_vision_based_brand_compliance_audit.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_no_sbom_license_compliance_reporting_beyond_depend.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_strong_coverage_already_16_ai_endpoints.js:100",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/gap_notification_routes_exist_but_no_slack_email_deliv.js:134",
         "route": "/history",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
@@ -7903,6 +7786,13 @@
         "sourceProject": "AiCustomerSupportAgent",
         "path": "backend/src/routes/customViews.js:194",
         "route": "/macros/history",
+        "originApp": "sales-marketing-crm/customer-support-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiCustomerSupportAgent",
+        "path": "backend/src/routes/runtimeAi.js:16",
+        "route": "/history",
         "originApp": "sales-marketing-crm/customer-support-agent"
       }
     ]
@@ -8156,40 +8046,34 @@
     "name": "Integrations",
     "canonicalKey": "integration",
     "aliases": [
-      "Integration Detail"
+      "Integration Detail",
+      "Integrations Page"
     ],
     "kinds": [
+      "api",
       "page"
     ],
     "routes": [
+      "/:id/integrations",
       "/IntegrationDetail",
       "/Integrations",
+      "/IntegrationsPage",
       "/integrations"
     ],
     "sourceProjects": [
+      "AIFranchisePerformanceBenchmarker",
       "AIFundraisingCampaignOptimizer",
+      "AIGrantWriter",
       "aIMarketingAutomation",
       "ai-sales-outreach"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer",
-      "sales-marketing-crm/churn-prediction-system"
+      "sales-marketing-crm/churn-prediction-system",
+      "sales-marketing-crm/franchise-performance-benchmarker",
+      "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/App.tsx:101",
-        "route": "/integrations",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/pages/Integrations.tsx",
-        "route": "/Integrations",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "page",
         "sourceProject": "ai-sales-outreach",
@@ -8238,6 +8122,34 @@
         "path": "frontend/src/pages/Integrations.tsx",
         "route": "/Integrations",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/App.tsx:101",
+        "route": "/integrations",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/Integrations.tsx",
+        "route": "/Integrations",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "client/src/pages/IntegrationsPage.jsx",
+        "route": "/IntegrationsPage",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGrantWriter",
+        "path": "backend/governance/router.js:126",
+        "route": "/:id/integrations",
+        "originApp": "sales-marketing-crm/review-response-manager"
       }
     ]
   },
@@ -8615,33 +8527,24 @@
     ],
     "routes": [
       "/LeadsPage",
+      "/contacts/:contactId/lead",
       "/dms/dealersocket/leads",
       "/leads"
     ],
     "sourceProjects": [
       "AICarDealershipSalesOptimizer",
       "AITradeShowConferenceROIOptimizer",
-      "leads"
+      "aIMarketingAutomation",
+      "leads",
+      "multiLocationFranchise",
+      "referral"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer",
-      "sales-marketing-crm/churn-prediction-system"
+      "sales-marketing-crm/churn-prediction-system",
+      "sales-marketing-crm/franchise-performance-benchmarker"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/leads/page.tsx",
-        "route": "/leads",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:107",
-        "route": "/leads",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
@@ -8704,6 +8607,55 @@
         "path": "frontend/src/pages/LeadsPage.js",
         "route": "/LeadsPage",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/governance.ts:52",
+        "route": "/contacts/:contactId/lead",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/leads/page.tsx",
+        "route": "/leads",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "components/DashboardLayout.tsx:20",
+        "route": "/leads",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "referral",
+        "path": "server/routes/workflow.js:106",
+        "route": "/leads",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "referral",
+        "path": "server/routes/workflow.js:113",
+        "route": "/leads",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multiLocationFranchise",
+        "path": "backend/src/routes/revenue.js:143",
+        "route": "/leads",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multiLocationFranchise",
+        "path": "backend/src/routes/revenue.js:151",
+        "route": "/leads",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       }
     ]
   },
@@ -9155,7 +9107,7 @@
   },
   {
     "name": "No AI Lead Scoring On Inbound Contacts Page",
-    "canonicalKey": "ai contacts inbound lead no on scoring",
+    "canonicalKey": "ai contact inbound lead no on scoring",
     "aliases": [],
     "kinds": [
       "page"
@@ -9233,7 +9185,7 @@
   },
   {
     "name": "No Direct Dms API Clients Cdk Reynolds Reynolds Be Page",
-    "canonicalKey": "api be cdk clients direct dms no reynolds",
+    "canonicalKey": "api be cdk client direct dms no reynold",
     "aliases": [],
     "kinds": [
       "page"
@@ -9458,13 +9410,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/ai.ts:1052",
-        "route": "/journeys/optimize",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIFundraisingCampaignOptimizer",
         "path": "server/routes/budget.js:77",
         "route": "/ai/optimize",
@@ -9483,6 +9428,56 @@
         "path": "server/routes/campaigns.js:125",
         "route": "/ai/optimize",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/ai.ts:1052",
+        "route": "/journeys/optimize",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      }
+    ]
+  },
+  {
+    "name": "Outbox",
+    "canonicalKey": "outbox",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:id/outbox",
+      "/outbox"
+    ],
+    "sourceProjects": [
+      "AITradeShowConferenceROIOptimizer",
+      "multiLocationFranchise"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/franchise-performance-benchmarker"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/governance/routerFactory.js:332",
+        "route": "/outbox",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/governance/routerFactory.js:352",
+        "route": "/cases/:id/outbox",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multiLocationFranchise",
+        "path": "backend/src/routes/internalJobs.js:14",
+        "route": "/outbox",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       }
     ]
   },
@@ -9491,17 +9486,24 @@
     "canonicalKey": "outreach",
     "aliases": [],
     "kinds": [
+      "api",
       "page"
     ],
     "routes": [
       "/Outreach",
+      "/leads/:id/outreach",
       "/outreach"
     ],
     "sourceProjects": [
-      "AIFundraisingCampaignOptimizer"
+      "AIFundraisingCampaignOptimizer",
+      "leads",
+      "multiLocationFranchise",
+      "referral"
     ],
     "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/churn-prediction-system",
+      "sales-marketing-crm/franchise-performance-benchmarker"
     ],
     "evidence": [
       {
@@ -9531,6 +9533,34 @@
         "path": "client/src/pages/Outreach.jsx",
         "route": "/Outreach",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/outreach/page.tsx",
+        "route": "/outreach",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "components/DashboardLayout.tsx:21",
+        "route": "/outreach",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "referral",
+        "path": "server/routes/workflow.js:131",
+        "route": "/leads/:id/outreach",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multiLocationFranchise",
+        "path": "backend/src/routes/revenue.js:260",
+        "route": "/leads/:id/outreach",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       }
     ]
   },
@@ -9581,13 +9611,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/automations.ts:227",
-        "route": "/:id/pause",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
         "sourceProject": "ai-sales-outreach",
         "path": "backend/src/routes/campaigns.ts:272",
         "route": "/:id/pause",
@@ -9599,6 +9622,13 @@
         "path": "backend/src/routes/sequences.ts:207",
         "route": "/:id/pause",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/automations.ts:227",
+        "route": "/:id/pause",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       }
     ]
   },
@@ -9763,13 +9793,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/server.js:4548",
-        "route": "/api/retention-save-desk/plan",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIFundraisingCampaignOptimizer",
         "path": "server/routes/calendar.js:77",
         "route": "/ai/plan",
@@ -9784,8 +9807,15 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/server.js:4549",
+        "route": "/api/retention-save-desk/plan",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIGrantWriter",
-        "path": "backend/routes/multiFunderStrategyPlanner.js:52",
+        "path": "backend/routes/multiFunderStrategyPlanner.js:53",
         "route": "/plan",
         "originApp": "sales-marketing-crm/review-response-manager"
       }
@@ -10062,8 +10092,34 @@
     ]
   },
   {
+    "name": "Quality",
+    "canonicalKey": "quality",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/metrics/quality"
+    ],
+    "sourceProjects": [
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/governedOutreach.ts:289",
+        "route": "/metrics/quality",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
     "name": "Rag Over Manufacturer Specs And Finance Programs F Page",
-    "canonicalKey": "and f finance manufacturer over programs rag specs",
+    "canonicalKey": "and f finance manufacturer over program rag spec",
     "aliases": [],
     "kinds": [
       "page"
@@ -10310,27 +10366,6 @@
     "evidence": [
       {
         "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/reports/page.tsx",
-        "route": "/reports",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:263",
-        "route": "/reports",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:265",
-        "route": "/reports",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
         "sourceProject": "ai-sales-outreach",
         "path": "frontend/src/pages/ReportDetail.tsx",
         "route": "/ReportDetail",
@@ -10386,18 +10421,25 @@
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       },
       {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/metrics.js:87",
-        "route": "/report",
-        "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
         "kind": "page",
         "sourceProject": "AICarDealershipSalesOptimizer",
         "path": "frontend/src/pages/ReportsPage.js",
         "route": "/ReportsPage",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/reports/page.tsx",
+        "route": "/reports",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/metrics.js:87",
+        "route": "/report",
+        "originApp": "sales-marketing-crm/review-response-manager"
       }
     ]
   },
@@ -10477,13 +10519,17 @@
   {
     "name": "Results",
     "canonicalKey": "result",
-    "aliases": [],
+    "aliases": [
+      "Result"
+    ],
     "kinds": [
       "api"
     ],
     "routes": [
       "/:id/results",
       "/api/ai/results",
+      "/integrations/:outboxId/result",
+      "/outbox/:id/results",
       "/results"
     ],
     "sourceProjects": [
@@ -10512,8 +10558,22 @@
       },
       {
         "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/governedOutreach.ts:229",
+        "route": "/outbox/:id/results",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIGrantWriter",
-        "path": "backend/server.js:2348",
+        "path": "backend/governance/router.js:145",
+        "route": "/integrations/:outboxId/result",
+        "originApp": "sales-marketing-crm/review-response-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIGrantWriter",
+        "path": "backend/server.js:2352",
         "route": "/api/ai/results",
         "originApp": "sales-marketing-crm/review-response-manager"
       }
@@ -10664,14 +10724,14 @@
       {
         "kind": "api",
         "sourceProject": "AIGrantWriter",
-        "path": "backend/routes/customViews.js:310",
+        "path": "backend/routes/customViews.js:311",
         "route": "/rules",
         "originApp": "sales-marketing-crm/review-response-manager"
       },
       {
         "kind": "api",
         "sourceProject": "AIGrantWriter",
-        "path": "backend/routes/customViews.js:314",
+        "path": "backend/routes/customViews.js:315",
         "route": "/rules",
         "originApp": "sales-marketing-crm/review-response-manager"
       }
@@ -10686,6 +10746,7 @@
     ],
     "routes": [
       "/:reviewId/run",
+      "/operations/run",
       "/run"
     ],
     "sourceProjects": [
@@ -10696,7 +10757,7 @@
       "AiCodeReviewDocumentation",
       "aIMarketingAutomation",
       "ai-sales-outreach",
-      "multiLocationFranchise"
+      "referral"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer",
@@ -10705,111 +10766,6 @@
       "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_codebase_not_modularized_into_route_files_maintain.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_ai_win_back_message_variant_generator_linked_to.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_automated_clustering_segment_discovery.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_campaign_playbook_orchestration_ui.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_data_ingest_pipeline_from_crm_billing_systems.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_notification_delivery_channel_alerts_table_only.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_production_ml_model_wiring_predictions_stored_a.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_streaming_feature_usage_signal_analyzer.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIChurnPredictionSystem",
-        "path": "backend/routes/gap_no_webhook_outbound_api.js:98",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/campaign-orchestrator-agent.ts:60",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/creative-test-agent.ts:60",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/lifecycle-winback.ts:60",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/marketplace-integration.ts:60",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/multi-channel-journey.ts:60",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/realtime-personalization.ts:60",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
@@ -11113,6 +11069,174 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_codebase_not_modularized_into_route_files_maintain.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_ai_win_back_message_variant_generator_linked_to.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_automated_clustering_segment_discovery.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_campaign_playbook_orchestration_ui.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_data_ingest_pipeline_from_crm_billing_systems.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_notification_delivery_channel_alerts_table_only.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_production_ml_model_wiring_predictions_stored_a.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_streaming_feature_usage_signal_analyzer.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/gap_no_webhook_outbound_api.js:98",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/campaign-orchestrator-agent.ts:60",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/creative-test-agent.ts:60",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/lifecycle-winback.ts:60",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/marketplace-integration.ts:60",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/multi-channel-journey.ts:60",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/realtime-personalization.ts:60",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "referral",
+        "path": "server/routes/workflow.js:145",
+        "route": "/operations/run",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapLimitedAuditLoggingSingleReferenceNotADedicated.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapNoABTestingFrameworkForWidgetPlacement.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapNoAiDrivenCustomerSegmentationForTargetedTestimonialSelection.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapNoAutomatedVisualAssetPosterSocialCardGeneration.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapNoIntegrationsWithTrustpilotG2CapterraReviewPlatforms.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapNoPredictiveScoringForWhichCustomersAreMost.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapNoScheduledBatchReviewCrawlingFromExternalSources.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISocialProofGenerator",
+        "path": "backend/routes/gapNoWebhooksNotificationsSystemForNewReviewOr.js:55",
+        "route": "/run",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AiCodeReviewDocumentation",
         "path": "backend/src/routes/aiCodeReviewer.js:72",
         "route": "/run",
@@ -11215,161 +11339,21 @@
         "path": "backend/src/routes/securityPostureScore.js:72",
         "route": "/run",
         "originApp": "sales-marketing-crm/review-response-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapLimitedAuditLoggingSingleReferenceNotADedicated.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapNoABTestingFrameworkForWidgetPlacement.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapNoAiDrivenCustomerSegmentationForTargetedTestimonialSelection.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapNoAutomatedVisualAssetPosterSocialCardGeneration.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapNoIntegrationsWithTrustpilotG2CapterraReviewPlatforms.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapNoPredictiveScoringForWhichCustomersAreMost.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapNoScheduledBatchReviewCrawlingFromExternalSources.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISocialProofGenerator",
-        "path": "backend/routes/gapNoWebhooksNotificationsSystemForNewReviewOr.js:55",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_franchisee_certification_training_lms_backend.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_franchisee_sentiment_glassdoor_style_analysis.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_marketing_spend_attribution_ai.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_mobile_app_for_franchisees.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_multi_currency_multi_region_accounting.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_payments_royalty_collection_automation.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_real_time_pos_kpi_ingestion.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_supply_chain_optimization_across_locations.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_support_ticketing_system.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_vendor_supplier_marketplace.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_no_vision_based_brand_compliance_audit.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/gap_strong_coverage_already_16_ai_endpoints.js:82",
-        "route": "/run",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       }
     ]
   },
   {
-    "name": "Runs",
-    "canonicalKey": "runs",
+    "name": "Sales Advice",
+    "canonicalKey": "advice sale",
     "aliases": [],
     "kinds": [
       "api"
     ],
     "routes": [
-      "/grant-prospector/runs"
+      "/sales-advice"
     ],
     "sourceProjects": [
-      "AIFundraisingCampaignOptimizer"
+      "ai-sales-outreach"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer"
@@ -11377,16 +11361,16 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "AIFundraisingCampaignOptimizer",
-        "path": "server/routes/agenticGrants.js:73",
-        "route": "/grant-prospector/runs",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/applicationAi.ts:9",
+        "route": "/sales-advice",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
   },
   {
     "name": "Sales Coach",
-    "canonicalKey": "coach sales",
+    "canonicalKey": "coach sale",
     "aliases": [],
     "kinds": [
       "api"
@@ -11412,7 +11396,7 @@
   },
   {
     "name": "Sales Funnel Heatmap",
-    "canonicalKey": "funnel heatmap sales",
+    "canonicalKey": "funnel heatmap sale",
     "aliases": [],
     "kinds": [
       "api"
@@ -11438,7 +11422,7 @@
   },
   {
     "name": "Sales Methodology Playbooks Meddic Sandler",
-    "canonicalKey": "meddic methodology playbooks sales sandler",
+    "canonicalKey": "meddic methodology playbook sale sandler",
     "aliases": [],
     "kinds": [
       "page"
@@ -11464,7 +11448,7 @@
   },
   {
     "name": "Sales Summary",
-    "canonicalKey": "sales summary",
+    "canonicalKey": "sale summary",
     "aliases": [],
     "kinds": [
       "api"
@@ -11490,7 +11474,7 @@
   },
   {
     "name": "Sales Views",
-    "canonicalKey": "sales",
+    "canonicalKey": "sale",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -11582,9 +11566,7 @@
       "AIFundraisingCampaignOptimizer",
       "AISocialProofGenerator",
       "aIMarketingAutomation",
-      "ai-sales-outreach",
-      "multiLocationFranchise",
-      "referral"
+      "ai-sales-outreach"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer",
@@ -11593,20 +11575,6 @@
       "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/consentFatigue.ts:5",
-        "route": "/score",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "referral",
-        "path": "server/routes/partnerFatigue.js:5",
-        "route": "/score",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
@@ -11651,10 +11619,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "AICompetitiveAnalysisTool",
-        "path": "backend/routes/shareOfVoice.js:5",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/consentFatigue.ts:5",
         "route": "/score",
-        "originApp": "sales-marketing-crm/review-response-manager"
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       },
       {
         "kind": "api",
@@ -11672,10 +11640,10 @@
       },
       {
         "kind": "api",
-        "sourceProject": "multiLocationFranchise",
-        "path": "backend/src/routes/storeOpeningReadiness.js:5",
+        "sourceProject": "AICompetitiveAnalysisTool",
+        "path": "backend/routes/shareOfVoice.js:5",
         "route": "/score",
-        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+        "originApp": "sales-marketing-crm/review-response-manager"
       }
     ]
   },
@@ -11809,18 +11777,22 @@
   {
     "name": "Settings",
     "canonicalKey": "setting",
-    "aliases": [],
+    "aliases": [
+      "Settings Page"
+    ],
     "kinds": [
       "navigation",
       "page"
     ],
     "routes": [
       "/Settings",
+      "/SettingsPage",
       "/settings",
       "settings"
     ],
     "sourceProjects": [
       "AICarDealershipSalesOptimizer",
+      "AIFranchisePerformanceBenchmarker",
       "AIGrantWriter",
       "AIReviewResponseManager",
       "AiCustomerSupportAgent",
@@ -11832,44 +11804,10 @@
       "sales-marketing-crm/car-dealership-sales-optimizer",
       "sales-marketing-crm/churn-prediction-system",
       "sales-marketing-crm/customer-support-agent",
+      "sales-marketing-crm/franchise-performance-benchmarker",
       "sales-marketing-crm/review-response-manager"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/App.tsx:107",
-        "route": "/settings",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "frontend/src/pages/Settings.tsx",
-        "route": "/Settings",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/settings/page.tsx",
-        "route": "/settings",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:297",
-        "route": "/settings",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:299",
-        "route": "/settings",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "navigation",
         "sourceProject": "AICarDealershipSalesOptimizer",
@@ -11918,6 +11856,48 @@
         "path": "frontend/src/pages/Settings.tsx",
         "route": "/Settings",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "frontend/src/pages/SettingsPage.js",
+        "route": "/SettingsPage",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/App.tsx:107",
+        "route": "/settings",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "frontend/src/pages/Settings.tsx",
+        "route": "/Settings",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/settings/page.tsx",
+        "route": "/settings",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "components/DashboardLayout.tsx:22",
+        "route": "/settings",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "client/src/pages/SettingsPage.jsx",
+        "route": "/SettingsPage",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
       },
       {
         "kind": "page",
@@ -12113,13 +12093,6 @@
     ],
     "evidence": [
       {
-        "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/options.ts:314",
-        "route": "/social-platforms",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIFundraisingCampaignOptimizer",
         "path": "client/src/App.jsx:307",
@@ -12146,6 +12119,13 @@
         "path": "client/src/pages/Social.jsx",
         "route": "/Social",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/options.ts:314",
+        "route": "/social-platforms",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       }
     ]
   },
@@ -12351,6 +12331,32 @@
     ]
   },
   {
+    "name": "Start",
+    "canonicalKey": "start",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/start"
+    ],
+    "sourceProjects": [
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/campaigns.ts:254",
+        "route": "/:id/start",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
     "name": "Steps",
     "canonicalKey": "step",
     "aliases": [],
@@ -12403,6 +12409,32 @@
     ]
   },
   {
+    "name": "Strategy",
+    "canonicalKey": "strategy",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai/strategy"
+    ],
+    "sourceProjects": [
+      "AIFundraisingCampaignOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "server/routes/campaigns.js:88",
+        "route": "/ai/strategy",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
     "name": "Subscribe",
     "canonicalKey": "subscribe",
     "aliases": [],
@@ -12429,6 +12461,59 @@
     ]
   },
   {
+    "name": "Sync",
+    "canonicalKey": "sync",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/sync",
+      "/pos/sync",
+      "/sources/sync"
+    ],
+    "sourceProjects": [
+      "AIFranchisePerformanceBenchmarker",
+      "aIMarketingAutomation",
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/churn-prediction-system",
+      "sales-marketing-crm/franchise-performance-benchmarker"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/governedOutreach.ts:35",
+        "route": "/sources/sync",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/integrations.ts:157",
+        "route": "/:id/sync",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/integrations.ts:147",
+        "route": "/:id/sync",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "server/routes/extensions.js:114",
+        "route": "/pos/sync",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      }
+    ]
+  },
+  {
     "name": "Tasks",
     "canonicalKey": "task",
     "aliases": [
@@ -12451,20 +12536,6 @@
       "sales-marketing-crm/churn-prediction-system"
     ],
     "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "app/tasks/page.tsx",
-        "route": "/tasks",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "leads",
-        "path": "components/DashboardLayout.tsx:117",
-        "route": "/tasks",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
       {
         "kind": "page",
         "sourceProject": "ai-sales-outreach",
@@ -12499,6 +12570,13 @@
         "path": "frontend/src/pages/TeamMemberDetail.tsx:111",
         "route": "/tasks",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "leads",
+        "path": "app/tasks/page.tsx",
+        "route": "/tasks",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       }
     ]
   },
@@ -12551,13 +12629,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "aIMarketingAutomation",
-        "path": "backend/src/routes/integrations.ts:140",
-        "route": "/:id/test",
-        "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AICarDealershipSalesOptimizer",
         "path": "backend/routes/webhooks.js:72",
         "route": "/:id/test",
@@ -12569,6 +12640,13 @@
         "path": "backend/src/routes/webhooks.ts:79",
         "route": "/test",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/integrations.ts:142",
+        "route": "/:id/test",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
       }
     ]
   },
@@ -12858,6 +12936,123 @@
     ]
   },
   {
+    "name": "Transition",
+    "canonicalKey": "transition",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/transition",
+      "/:id/transitions",
+      "/actions/:id/transition",
+      "/cases/:id/transition",
+      "/cases/:id/transitions",
+      "/leads/:id/transitions",
+      "/runs/:id/transition",
+      "/sources/:id/transition"
+    ],
+    "sourceProjects": [
+      "AICarDealershipSalesOptimizer",
+      "AIChurnPredictionSystem",
+      "AIDatabaseAdminAgent",
+      "AIFranchisePerformanceBenchmarker",
+      "AIFundraisingCampaignOptimizer",
+      "AIReviewResponseManager",
+      "AITradeShowConferenceROIOptimizer",
+      "AiCodeReviewDocumentation",
+      "AiCustomerSupportAgent",
+      "aIMarketingAutomation",
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/churn-prediction-system",
+      "sales-marketing-crm/customer-support-agent",
+      "sales-marketing-crm/franchise-performance-benchmarker",
+      "sales-marketing-crm/review-response-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/retailLifecycle.js:5",
+        "route": "/:id/transition",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "server/routes/governedGrants.js:30",
+        "route": "/:id/transition",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "backend/governance/routerFactory.js:251",
+        "route": "/cases/:id/transitions",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/governedOutreach.ts:179",
+        "route": "/:id/transitions",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIChurnPredictionSystem",
+        "path": "backend/routes/governedRetention.js:7",
+        "route": "/runs/:id/transition",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "aIMarketingAutomation",
+        "path": "backend/src/routes/governance.ts:60",
+        "route": "/leads/:id/transitions",
+        "originApp": "sales-marketing-crm/churn-prediction-system"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIDatabaseAdminAgent",
+        "path": "backend/routes/governedWorkflow.js:129",
+        "route": "/cases/:id/transitions",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "server/routes/governedPerformance.js:76",
+        "route": "/actions/:id/transition",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIReviewResponseManager",
+        "path": "backend/src/governance/routerFactory.js:225",
+        "route": "/cases/:id/transitions",
+        "originApp": "sales-marketing-crm/review-response-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiCodeReviewDocumentation",
+        "path": "backend/src/routes/authoritative.js:7",
+        "route": "/sources/:id/transition",
+        "originApp": "sales-marketing-crm/review-response-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AiCustomerSupportAgent",
+        "path": "backend/src/routes/authoritative.js:97",
+        "route": "/cases/:id/transition",
+        "originApp": "sales-marketing-crm/customer-support-agent"
+      }
+    ]
+  },
+  {
     "name": "Unassigned",
     "canonicalKey": "unassigned",
     "aliases": [],
@@ -12879,6 +13074,32 @@
         "sourceProject": "AICarDealershipSalesOptimizer",
         "path": "backend/routes/leads.js:66",
         "route": "/unassigned",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "Usage",
+    "canonicalKey": "usage",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/usage"
+    ],
+    "sourceProjects": [
+      "ai-sales-outreach"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "ai-sales-outreach",
+        "path": "backend/src/routes/ai.ts:215",
+        "route": "/usage",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
@@ -13129,34 +13350,8 @@
     ]
   },
   {
-    "name": "Webhooks Page",
-    "canonicalKey": "webhooks",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/WebhooksPage"
-    ],
-    "sourceProjects": [
-      "AICarDealershipSalesOptimizer"
-    ],
-    "consolidatedFromApps": [
-      "sales-marketing-crm/car-dealership-sales-optimizer"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AICarDealershipSalesOptimizer",
-        "path": "frontend/src/pages/WebhooksPage.js",
-        "route": "/WebhooksPage",
-        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
-      }
-    ]
-  },
-  {
     "name": "White Label CRM For Dealer Groups Managing Multi R Page",
-    "canonicalKey": "crm dealer for groups label managing multi r white",
+    "canonicalKey": "crm dealer for group label managing multi r white",
     "aliases": [],
     "kinds": [
       "page"
@@ -13182,7 +13377,7 @@
   },
   {
     "name": "Workflow Approval Gates Compliance Review",
-    "canonicalKey": "approval compliance gates review workflow",
+    "canonicalKey": "approval compliance gate review workflow",
     "aliases": [],
     "kinds": [
       "page"
