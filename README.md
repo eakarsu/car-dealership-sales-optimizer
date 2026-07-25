@@ -3,7 +3,7 @@
 Industry: **Sales, Marketing & CRM**  
 Specialization: **Car Dealership Sales Optimizer**
 
-This standalone application consolidates source-backed capabilities into 294 optimized features, including 44 visible data-backed or AI-enabled views. Its public demo SQLite database contains 373 sanitized source rows across 23 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 298 optimized features, including 47 visible data-backed or AI-enabled views. Its public demo SQLite database contains 373 sanitized source rows across 23 imported tables and 120 operational workflow records.
 
 ## Run locally
 

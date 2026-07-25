@@ -3110,6 +3110,62 @@
     ]
   },
   {
+    "name": "Competitors",
+    "canonicalKey": "competitor",
+    "aliases": [
+      "Competitor",
+      "Competitor Detail"
+    ],
+    "kinds": [
+      "model",
+      "page"
+    ],
+    "routes": [
+      "/CompetitorDetail",
+      "/competitors"
+    ],
+    "sourceProjects": [
+      "AIFranchisePerformanceBenchmarker",
+      "AIReviewResponseManager",
+      "AITradeShowConferenceROIOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer",
+      "sales-marketing-crm/franchise-performance-benchmarker",
+      "sales-marketing-crm/review-response-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/App.jsx:176",
+        "route": "/competitors",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AITradeShowConferenceROIOptimizer",
+        "path": "frontend/src/App.jsx:68",
+        "route": "/competitors",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
+      {
+        "kind": "model",
+        "sourceProject": "AIFranchisePerformanceBenchmarker",
+        "path": "server/models/Competitor.js",
+        "route": "",
+        "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIReviewResponseManager",
+        "path": "frontend/src/pages/CompetitorDetail.js",
+        "route": "/CompetitorDetail",
+        "originApp": "sales-marketing-crm/review-response-manager"
+      }
+    ]
+  },
+  {
     "name": "Complete",
     "canonicalKey": "complete",
     "aliases": [],
@@ -3156,6 +3212,32 @@
         "path": "backend/src/routes/operations.js:305",
         "route": "/checklists/:id/complete",
         "originApp": "sales-marketing-crm/franchise-performance-benchmarker"
+      }
+    ]
+  },
+  {
+    "name": "Compliance Checker",
+    "canonicalKey": "checker compliance",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/compliance-checker"
+    ],
+    "sourceProjects": [
+      "AICarDealershipSalesOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AICarDealershipSalesOptimizer",
+        "path": "backend/routes/aiNew.js:177",
+        "route": "/compliance-checker",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
   },
@@ -3841,6 +3923,32 @@
     ]
   },
   {
+    "name": "Donor Lifetime Value",
+    "canonicalKey": "donor lifetime value",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-predictions?tool=donor-ltv"
+    ],
+    "sourceProjects": [
+      "AIFundraisingCampaignOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/pages/AIPredictions.jsx:17",
+        "route": "/ai-predictions?tool=donor-ltv",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
     "name": "Donor Ltv",
     "canonicalKey": "donor ltv",
     "aliases": [],
@@ -4123,9 +4231,11 @@
     "canonicalKey": "event forecast",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-predictions?tool=event-forecast",
       "/event-forecast"
     ],
     "sourceProjects": [
@@ -4135,6 +4245,13 @@
       "sales-marketing-crm/car-dealership-sales-optimizer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/pages/AIPredictions.jsx:42",
+        "route": "/ai-predictions?tool=event-forecast",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIFundraisingCampaignOptimizer",
@@ -6166,6 +6283,32 @@
         "sourceProject": "AIFundraisingCampaignOptimizer",
         "path": "server/routes/ai.js:212",
         "route": "/grant-recommend",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      }
+    ]
+  },
+  {
+    "name": "Grant Recommendations",
+    "canonicalKey": "grant recommendation",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-predictions?tool=grant-recommend"
+    ],
+    "sourceProjects": [
+      "AIFundraisingCampaignOptimizer"
+    ],
+    "consolidatedFromApps": [
+      "sales-marketing-crm/car-dealership-sales-optimizer"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/pages/AIPredictions.jsx:29",
+        "route": "/ai-predictions?tool=grant-recommend",
         "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
       }
     ]
@@ -8742,9 +8885,11 @@
     "canonicalKey": "cultivation donor major",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-predictions?tool=major-donor-cultivation",
       "/major-donor-cultivation"
     ],
     "sourceProjects": [
@@ -8754,6 +8899,13 @@
       "sales-marketing-crm/car-dealership-sales-optimizer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/pages/AIPredictions.jsx:56",
+        "route": "/ai-predictions?tool=major-donor-cultivation",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIFundraisingCampaignOptimizer",
@@ -10304,6 +10456,7 @@
     "canonicalKey": "reply triage",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "page"
     ],
     "routes": [
@@ -10316,6 +10469,13 @@
       "sales-marketing-crm/car-dealership-sales-optimizer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "ai-sales-outreach",
+        "path": "frontend/src/pages/AIReplyTriage.tsx:1",
+        "route": "/ai/reply-triage",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
       {
         "kind": "page",
         "sourceProject": "ai-sales-outreach",
@@ -10336,12 +10496,10 @@
     "name": "Reports",
     "canonicalKey": "report",
     "aliases": [
-      "Report",
       "Report Detail",
       "Reports Page"
     ],
     "kinds": [
-      "api",
       "navigation",
       "page"
     ],
@@ -10349,19 +10507,16 @@
       "/ReportDetail",
       "/Reports",
       "/ReportsPage",
-      "/report",
       "/reports"
     ],
     "sourceProjects": [
       "AICarDealershipSalesOptimizer",
-      "AiCodeReviewDocumentation",
       "ai-sales-outreach",
       "leads"
     ],
     "consolidatedFromApps": [
       "sales-marketing-crm/car-dealership-sales-optimizer",
-      "sales-marketing-crm/churn-prediction-system",
-      "sales-marketing-crm/review-response-manager"
+      "sales-marketing-crm/churn-prediction-system"
     ],
     "evidence": [
       {
@@ -10433,13 +10588,6 @@
         "path": "app/reports/page.tsx",
         "route": "/reports",
         "originApp": "sales-marketing-crm/churn-prediction-system"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AiCodeReviewDocumentation",
-        "path": "backend/src/routes/metrics.js:87",
-        "route": "/report",
-        "originApp": "sales-marketing-crm/review-response-manager"
       }
     ]
   },
@@ -13221,9 +13369,11 @@
     "canonicalKey": "matching volunteer",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-predictions?tool=volunteer-matching",
       "/volunteer-matching"
     ],
     "sourceProjects": [
@@ -13233,6 +13383,13 @@
       "sales-marketing-crm/car-dealership-sales-optimizer"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFundraisingCampaignOptimizer",
+        "path": "client/src/pages/AIPredictions.jsx:68",
+        "route": "/ai-predictions?tool=volunteer-matching",
+        "originApp": "sales-marketing-crm/car-dealership-sales-optimizer"
+      },
       {
         "kind": "api",
         "sourceProject": "AIFundraisingCampaignOptimizer",

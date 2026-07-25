@@ -11,12 +11,12 @@
     "AITradeShowConferenceROIOptimizer",
     "ai-sales-outreach"
   ],
-  "featureCount": 294,
-  "candidateFeatureCount": 411,
-  "eliminatedSimilarFeatures": 117,
-  "evidenceCount": 1039,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 298,
+  "candidateFeatureCount": 413,
+  "eliminatedSimilarFeatures": 115,
+  "evidenceCount": 1049,
+  "aiPageCount": 6,
+  "sourceAIPageCount": 6,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -25,6 +25,6 @@
     "seededTables": 23,
     "seededRows": 373
   },
-  "visibleFeatureCount": 44,
+  "visibleFeatureCount": 47,
   "featureVisibilityMode": "seeded-or-ai"
 }
